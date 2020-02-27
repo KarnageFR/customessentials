@@ -19,11 +19,9 @@ import fr.elshock.ce.manager.LocationManager;
 public class Main extends JavaPlugin{
 	
 	public static Main main;
-	public static LocationManager lm;
 
 	@Override
 	public void onEnable() {
-		lm = new LocationManager();
 		System.out.print("Bienvenue");
 		PluginManager pm = getServer().getPluginManager();
 		
@@ -36,8 +34,6 @@ public class Main extends JavaPlugin{
 		getCommand("vanish").setExecutor(new VanishCommand());
 		getCommand("fly").setExecutor(new FlyCommand());
 		getCommand("nick").setExecutor(new NickCommand());
-		getCommand("setspawn").setExecutor(new SetSpawnCommand());
-		getCommand("spawn").setExecutor(new SpawnCommand());
 	}
 
 	@Override
