@@ -1,0 +1,24 @@
+author: elshockwave
+commands: 
+  fly: 
+    description: Vole
+    usage: /fly
+  hello: 
+    description: hello
+    usage: /hello
+  nick: 
+    description: "Changer son pseudo"
+    usage: /nick
+  setspawn: 
+    description: "Definir un spawn!"
+    usage: /setspawn
+  spawn: 
+    description: "Se teleporter au spawn"
+    usage: /spawn
+  vanish: 
+    description: "Te faire disparaitre"
+    usage: /vanish
+description: customessentials
+main: fr.elshock.ce.Main
+name: EssentialCore
+version: 1.2.8
